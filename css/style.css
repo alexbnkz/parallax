@@ -1,0 +1,256 @@
+
+/***********************************************************************
+/* BODY SECTIONS
+***********************************************************************/
+ 
+html {background:#000; display:inline-block; overflow-y:hidden; height:100%; max-height:100%;}
+body {height:100%; width:100%;}
+ul {padding:0px; margin:0px; list-style:none;}
+
+body > section {min-width:1024px; position:fixed; top:0; bottom:0; left:0; right:0; display:block; color:white;	overflow-x:hidden;}
+body > article {}
+
+.hidden {display:none !important;}
+.invisible {visibility:hidden !important;}
+.ontop {overflow:auto; overflow-x:hidden;}
+.ontop > * {position:relative;}
+.allowHover {cursor:pointer;}
+
+#wrapper {background:black;}
+#wrapper > article {display:block;}
+
+/***********************************************************************
+/* PRELOADER
+***********************************************************************/
+
+#qLoverlay {width:100%; height:100%; background:#000 url('../img/ui/preloader.jpg') center fixed no-repeat; position:fixed; z-index:9999; top:0; left:0;}
+
+/***********************************************************************
+/* NAVIGATION
+***********************************************************************/
+
+#logo {position:fixed; z-index:7; left:30px; top:25px; width:135px; height:135px; cursor:pointer}
+#navigation {position:fixed; z-index:7; right:47px; top:25px; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none;}
+#navigation .selected {color:#333;}
+#navigation li {height:40px; font:normal 13px 'Oswald'; text-align:center; color:#fff; float:left; letter-spacing:0}
+#navigation li:hover:not(.selected) {color:#333;}
+#navigation li#li01 {width:47px;}
+#navigation li#li02 {width:71px;}
+#navigation li#li03 {width:111px;}
+#navigation li#li04 {width:82px;}
+#navigation li#li05 {width:92px;}
+#navigation li#li06 {width:130px;}
+#navigation li#li07 {width:70px;}
+
+#navigation li.star {width:12px}
+#navigation li img {margin-top:12px}
+#navigation li a {color:inherit; display:block; /*padding:8px; cursor:pointer;*/ width:100%; height:40px; line-height:30px; text-align:center;}
+#navigation img {/*color:inherit; display:block; padding:12px 2px;*/}
+
+#hoverLi {position:fixed; z-index:5; right:27px; top:28px; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none;}
+#hoverLi li {background:#fff; height:27px; position:absolute;}
+#hoverLi li#overP01 {width:42px; left:-705px;}
+#hoverLi li#overP02 {width:62px; left:-641px;}
+#hoverLi li#overP03 {width:102px; left:-556px}
+#hoverLi li#overP04 {width:75px; left:-431px}
+#hoverLi li#overP05 {width:84px; left:-334px}
+#hoverLi li#overP06 {width:118px; left:-226px}
+#hoverLi li#overP07 {width:62px; left:-86px}
+
+#arrowLi {position:fixed; z-index:5; right:27px; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none;}
+#arrowLi li {background:url('../img/ui/arrow.png') 0 0 no-repeat; height:5px; width:9px; position:absolute; top:55px;}
+#arrowLi li#arrowP01 {left:-677px;}
+#arrowLi li#arrowP02 {left:-605px;}
+#arrowLi li#arrowP03 {left:-500px}
+#arrowLi li#arrowP04 {left:-395px}
+#arrowLi li#arrowP05 {left:-295px}
+#arrowLi li#arrowP06 {left:-170px}
+#arrowLi li#arrowP07 {left:-58px}
+
+#social {position:fixed; z-index:7; right:17px; top:120px;}
+#social li {list-style-type:none;}
+
+/***********************************************************************
+/* FOOTER
+***********************************************************************/
+
+body > footer {width:323px; height:auto; bottom:15px; font:normal 11px 'DIN-Regular'; height:139px; position:fixed; z-index:2; color:#fff}
+footer .ragSoc {float:right; width:100%; margin-bottom:16px;}
+footer span {font-size:12px; font-weight:bold;}
+footer .bkg{ padding:1px 2px; line-height:16px; background:url('../img/bg_footer.png') top left repeat; font-style:normal;}
+footer .line {float:right; width:323px; height:5px; border-top:solid 1px #fff; border-bottom:solid 1px #fff; margin-bottom:20px;}
+footer .add01 {width:175px; float:right}
+footer .add02 {width:138px; float:right}
+footer a{color:#fff; text-decoration:none;}
+#footer_sx a{color:#001b22; text-decoration:none;}
+#footer_sx a:hover{color:#a9005c; text-decoration:none;}
+footer a:hover{color:#a9005c; text-decoration:none;}
+#footer_dx{right:-580px; text-align:right;}
+#footer_sx{left:58px; text-align:left; color:#001b22;}
+#footer_sx .line {float:left;}
+#footer_sx .add01 {width:175px; float:left}
+#footer_sx .add02 {width:138px; float:left}
+/***********************************************************************
+/* OGGETTI PARALLAX
+***********************************************************************/
+
+#wrapper > article > section {z-index:0; padding:0px; margin:0px; width:100%; max-width:1920px; min-width:1090px; position:relative; overflow:hidden;}
+
+/* HOME */
+
+#first .payoff01 {height:214px; width:592px; max-width:1920px; position:absolute; z-index:3; top:240px; left:50%; margin-left:-570px;}
+#first .flag {height:171px; width:456px; max-width:1920px; position:absolute; z-index:4; top:443px; left:50%; margin-left:-517px;}
+#first .love {height:120px; width:138px; max-width:1920px; position:absolute; z-index:6; top:550px; left:50%; margin-left:-360px;}
+#first .scopri {background:url('../img/home/bkgScopri.png') 0 0 no-repeat; height:140px; width:253px; max-width:1920px; position:absolute; z-index:4; top:700px; left:50%; margin-left:-423px;}
+#first .scopri a{cursor:pointer; text-decoration:none; display:block; height:140px;}
+#first .scopri h1 {width:253px; font:normal 37px 'ZagBold'; text-align:center; color:#fff; margin-top:-8px; padding:0;}
+#first .scopri h2 {width:253px; font:normal 15px 'DIN-Medium'; letter-spacing:7px; text-align:center; color:#fff; margin-top:-5px; padding:0;}
+#first .bolla1 {height:352px; width:357px; max-width:1920px; position:absolute; z-index:6; top:420px; left:20px;}
+#first .bolla2 {height:120px; width:138px; max-width:1920px; position:absolute; z-index:6; top:290px; right:128px}
+
+
+
+
+#first {background:url('../img/a.jpg') 50% 0 no-repeat fixed; height:1620px; position:relative;}
+#first > article {width:100%; position:absolute; top:0;  z-index:2;}
+
+/* ----------------------------------------------------- */
+/* TATUAGGI */
+
+#second .item01 {height:569px; width:370px; max-width:1920px; position:absolute; z-index:4; top:950px; right:0;}
+#second .ink01 {height:117px; width:75px; max-width:1920px; position:absolute; z-index:5; top:850px; left:50%; margin-left:-710px;}
+#second .ink02 {height:42px; width:81px; max-width:1920px; position:absolute; z-index:5; top:2300px; left:50%; margin-left:-110px;}
+#second .scopri {background:url('../img/tatuaggi/tatuaggi.png') 0 0 no-repeat; height:632px; width:475px; max-width:1920px; position:absolute; z-index:5; top:1250px; right:50%; margin-right:-530px;}
+#second .scopri p {width:450px; font:normal 15px 'DIN-Medium'; color:#fff; text-align:justify; margin-top:345px; float:right;}
+#second .scopri h1 {width:450px; font:normal 15px 'DIN-Medium'; letter-spacing:5px; text-align:center; color:#fff; margin-top:89px; padding:0; float:right;}
+#second .scopri h1 a {color:#fff; text-decoration:none;}
+#second .scopri h1 a img {position:absolute; top:528px; left:8px;}
+#second .scopri h4{font-size:18px; color:#FFF;font-family:'din_lightregular'; position:absolute; float:right}
+@media screen and (-webkit-min-device-pixel-ratio:0) { #second .scopri h4{font-size:17px;} }
+#second .scopri h4 strong{font-family:'din_neuzeit_grotesk_std_bolRg'; font-size:16px;}
+#second .scopri h4 a{color:#fff; text-decoration:none;}
+
+#second .scopri h4.box_tattoo{background:url(../img/tatuaggi/bg_tattoo.png); width:280px; height:66px; top:450px; left:25px; padding-left:170px; line-height:66px; z-index:999}
+#second .scopri h4.box_legge{background:url(../img/tatuaggi/bg_legge.png); width:300px; height:52px; top:640px; left:25px; padding-left:150px; line-height:66px}
+
+#second {background:url('../img/b.jpg') 50% 0 no-repeat fixed; height:1080px; z-index:5; position:relative;}
+#second > article {width:100%; position:absolute; top:0; z-index:0;}
+
+/* ----------------------------------------------------- */
+/* MAKE UP */
+
+#third .obj01 {height:648px; width:308px; max-width:1920px; position:absolute; z-index:6; top:1600px; left:72px;}
+#third .obj02 {height:268px; width:129px; max-width:1920px; position:absolute; z-index:5; top:1200px; right:50px;}
+#third .mainTxt {background:url('../img/makeup/makeup.png') 0 0 no-repeat; height:600px; width:452px; max-width:1920px; position:absolute; z-index:4; top:2850px; left:50%; margin-left:50px;}
+#third .mainTxt h1 {width:452px; font:normal 15px 'DIN-Medium'; color:#fff; text-align:justify; margin-top:275px;}
+#third .mainTxt h2 {width:auto; font:normal 15px 'DIN-Medium'; letter-spacing:6px; text-align:center; color:#fff; margin:40px 0 0 6px; line-height:23px;}
+@media screen and (-webkit-min-device-pixel-ratio:0) { #third .mainTxt h2{margin:49px 0 0 6px;} }
+#third .mainTxt h2 a{color:#fff; text-decoration:none;}
+#third .mainTxt h3{width:133px; height:30px; line-height:34px; font-size:18px; color:#FFF;font-family:'din_neuzeit_grotesk_std_bolRg'; margin:9px 57px 0px 0px; float:right}
+#third .mainTxt h3 a{color:#fff; text-decoration:none;}
+#third .mainTxt h4{font-size:18px; color:#FFF;font-family:'din_lightregular'; position:absolute; float:right}
+@media screen and (-webkit-min-device-pixel-ratio:0) { #third .mainTxt h4{font-size:17px;} }
+#third .mainTxt h4 a{color:#fff; text-decoration:none;}
+#third .mainTxt h4 strong{font-family:'din_neuzeit_grotesk_std_bolRg'; font-size:16px;}
+
+#third .mainTxt h4.box_makeup{background:url(../img/makeup/bg_makeup.png); width:340px; height:94px; top:585px; left:25px; padding-left:110px; line-height:136px;}
+#third .mainTxt img {margin:55px 0 0 0;}
+
+#third {background:url('../img/c.jpg') 50% 0 no-repeat fixed; height:1120px; position:relative;}
+#third > article {width:100%; position:absolute; top:0; z-index:0;}
+
+/* ----------------------------------------------------- */
+
+/* SHOWROOM */
+
+#fourth .titolo { height:167px; width:757px; max-width:1920px; position:absolute; z-index:2; top:1800px;left:50%; margin-left:-373px;}
+#fourth .girl { height:569px; width:1011px; max-width:1920px; position:absolute;z-index:5; top:4450px;right:30px;}
+#fourth .carta{ height:429px;width:335px; max-width:1920px; position:absolute; z-index:6; top:2250px;left:50px}
+#fourth .slide { height:326px; width:1019px; max-width:1920px; position:absolute;z-index:5; top:4450px; left:50%; margin-left:-510px; background:url('../img/showroom/bg_slide.png') top left repeat;}
+#fourth .slide .bx-window{margin-left:7px}
+#fourth .slide #slider_show{height:318px; width:1005px; position:relative; top:7px;}
+#fourth .slide .bx-prev, #fourth .slide .bx-prev{display:none;}
+#fourth .slide .bx-pager{position:absolute; top:-30px; left:50%; margin-left:-135px}
+#fourth .slide .bx-pager .pager-link{width:13px; height:13px; background:url('../img/showroom/pager.png') top left no-repeat; margin-left:6px; text-indent:-9999px; color:transparent; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none; display:inline-block; }
+*:first-child+html #fourth .slide .bx-pager .pager-link{display:inline;}
+#fourth .slide .bx-pager .pager-link a{text-decoration:none;}
+#fourth .slide .bx-pager  a.pager-link:hover{background:url('../img/showroom/pager_active.png') top left no-repeat;}
+#fourth .slide .bx-pager .pager-active{width:13px; height:13px; background:url('../img/showroom/pager_active.png') top left no-repeat;}
+#fourth .piuma01 { height:54px; width:90px; max-width:1920px; position:absolute;z-index:5; top:850px;left:440px;}
+#fourth .piuma02 { height:98px; width:147px; max-width:1920px; position:absolute;z-index:5; top:5000px;right:400px;}
+#fourth .piuma03 { height:97px; width:139px; max-width:1920px; position:absolute;z-index:5; top:1010px;left:715px;}
+#fourth .piuma04 { height:62px; width:90px; max-width:1920px; position:absolute;z-index:5; top:5000px;left:635px;}
+#fourth .piuma05 { height:212px; width:355px; max-width:1920px; position:absolute;z-index:5; top:8420px;right:400px;}
+
+
+#fourth .img_izq_hombre{ height:191px;width:264px; max-width:1920px; position:absolute;z-index:4; top:2400px; left:50% ;margin-left:-350px;}
+#fourth .logo_triangulo_lois{ height:174px;width:194px; max-width:1920px; position:absolute;z-index:2; top:2500px;left:50%;margin-left:-87px;}
+#fourth .avion1{ height:117px;width:177px; max-width:1920px; position:absolute;z-index:2; top:3000px;left:50%;margin-left:-400px;}
+#fourth .avion2{ height:161px;width:191px; max-width:1920px; position:absolute;z-index:2; top:2300px;left:50%;margin-left:200px;}
+
+#fourth {background:url('../img/d.jpg') 50% 0px no-repeat fixed; height:1130px; z-index:1; position:relative;}
+#fourth > article {width:100%; position:absolute; top:0px; z-index:0;}
+
+/* ----------------------------------------------------- */
+/* LABORATORIO */
+
+#fifth .labo_01 {height:1090px; width:808px; max-width:1920px; position:absolute; z-index:3; top:400px; left:0%; margin-left:-190px}
+#fifth .labo_02 {height:140px; width:440px; max-width:1920px; position:absolute; z-index:3; top:100px;left:50%; margin-left:-220px;}
+#fifth .labo_03 {height:520px; width:907px; max-width:1920px; position:absolute; z-index:3; top:10000px;left:50%; margin-left:-453px;}
+#fifth .labo_slide {height:600px; width:1040px; max-width:1920px; position:absolute; z-index:3; top:1400px; left:50%; margin-left:-520px;}
+#fifth .flor_blanca {height:141px; width:141px; max-width:1920px; position:absolute; z-index:4; top:2300px; left:50%; margin-left:370px;}
+#fifth .abba {height:143px; width:332px; max-width:1920px; position:absolute; z-index:2; top:3000px; left:50%; margin-left:-250px;}
+#fifth .raqueta {height:404px; width:660px; max-width:1920px; position:absolute; z-index:4; top:6100px; left:50%; margin-left:-115px;}
+#fifth .foto {height:189px; width:192px; max-width:1920px; position:absolute; z-index:2; top:3000px; left:50%; margin-left:-400px;}
+
+#fifth {background:url('../img/e.jpg') 50% 0px no-repeat fixed; height:1200px; position:relative;}
+#fifth > article {width:100%; position:absolute; top:0px; z-index:0;}
+
+/* ----------------------------------------------------- */
+/* WORLD */
+
+#sixth .cd1 { height:592px; width:255px; max-width:1920px; position:absolute; z-index:2; top:2050px;left:0;}
+#sixth .cd2 { height:624px; width:359px; max-width:1920px; position:absolute; z-index:2; top:6400px;right:0;}
+#sixth .slide { height:730px; width:710px; max-width:1920px; position:absolute; z-index:3; top:4250px; left:50%; margin-left:-355px; background:url('../img/world/bkg.png') top left no-repeat;}
+#sixth .slide .bx-wrapper{top:230px;}
+#sixth .slide .bx-wrapper .bx-prev{background:url('../img/world/prev.png') top left no-repeat; height:43px; width:43px; position:absolute; top:50%; margin-top:-21px; left:-45px}
+#sixth .slide .bx-wrapper .bx-next{background:url('../img/world/next.png') top left no-repeat; height:43px; width:43px; position:absolute; top:50%; margin-top:-21px; right:-45px}
+#sixth .slide #slider_world{height:460px; width:710px; position:absolute; left:0;}
+#sixth .slide #slider_world div{height:460px; width:710px;}
+#sixth .slide #slider_world div img{float:left; border:5px solid #FFF; margin:25px 0 0 25px;}
+#sixth .slide #slider_world div img.centro{margin:25px 10px 0 35px}
+#sixth {background:url('../img/f.jpg') 50% 0px no-repeat fixed; height:1520px; position:relative;}
+#sixth > article {width:100%; position:absolute;top:0px; z-index:0;}
+
+/* ----------------------------------------------------- */
+/* CONTATTI */
+
+#seventh .contatti{height:460px; width:480px; max-width:1920px; background:url('../img/contatti/background.png') top left no-repeat; position:absolute; z-index:3; top:2050px; left:250px;}
+#seventh .contatti h1{font-size:13px; color:#fff; letter-spacing:3px; font-family: 'DIN-Medium'; margin-top:150px; line-height:20px}
+#seventh .contatti h2{font-size:13px; color:#fff; letter-spacing:3px; font-family: 'DIN-Medium'; /*margin-top:275px;*/ margin-top: 205px; float: left; line-height:20px}
+@media screen and (-webkit-min-device-pixel-ratio:0) { #seventh .contatti h1{font-size:12px;} }
+@media screen and (-webkit-min-device-pixel-ratio:0) { #seventh .contatti h2{font-size:12px;} }
+
+#seventh .cont01{height:1126px; width:432px; max-width:1920px; position:absolute; z-index:2; top:2050px; left:0;}
+#seventh .email{width:415px; height:50px; position:absolute; z-index:4; top:370px; left:40px;}
+#seventh .email a{display:block; height:50px; width:415px;}
+
+#seventh {background:url('../img/g.jpg') 50% 0px no-repeat fixed; height:1520px; position:relative;}
+#seventh > article {width:100%; position:absolute;top:0px; z-index:0;}
+
+#seventh .contatti .link_social { width: 100%; float: left; margin-top: 35px; }
+#seventh .contatti .link_social li{ float: left; margin-left: 42px; }
+#seventh .contatti .link_social li:first-of-type{ margin-left: 12px; }
+#seventh .contatti .link_social li a img{ width: 30px }
+
+/* ----------------------------------------------------- */
+/* FANCYBOX TESTO */
+.fancy_txt{-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; display:none; }
+.fancy_txt h2{letter-spacing:3px; font-family: 'DIN-Medium'; font-size:15px; color:#fff; margin:0 20px 15px; padding-top:25px;}
+.fancy_txt ul{margin:0 15px 0 35px; padding-bottom:15px;}
+.fancy_txt ul li{font-family: 'DIN-Medium'; font-size:13px; line-height:23px; color:#fff;  list-style:disc}
+.fancy_txt ul li strong{font-weight:bold;}
+.fancy_txt p{font-family: 'DIN-Medium'; font-size:13px; line-height:23px; color:#fff; padding-bottom:25px; margin:0 15px;}
+.fancy_txt p a{color:#aadff4}
+#cura_trucco{background:url(../img/makeup/bg_box.jpg) center center no-repeat;}
+#cura_tattoo, #decreto_legge{background:url(../img/tatuaggi/bg_box.jpg) center center no-repeat;}

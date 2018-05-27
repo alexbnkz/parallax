@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('fontface/oswald.eot');
+    src: url('fontface/oswald.eot?#iefix') format('embedded-opentype'),
+         url('fontface/oswald.woff') format('woff'),
+         url('fontface/oswald.ttf') format('truetype'),
+         url('fontface/oswald.svg#oswald') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN-Medium';
+    src: url('fontface/dinrg___.eot');
+    src: url('fontface/dinrg___.eot?#iefix') format('embedded-opentype'),
+         url('fontface/dinrg___.woff') format('woff'),
+         url('fontface/dinrg___.ttf') format('truetype'),
+         url('fontface/dinrg___.svg#dinrg___') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'din_lightregular';
+    src: url('fontface/ufonts.com_din-light-webfont.eot');
+    src: url('fontface/ufonts.com_din-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontface/ufonts.com_din-light-webfont.woff') format('woff'),
+         url('fontface/ufonts.com_din-light-webfont.ttf') format('truetype'),
+         url('fontface/ufonts.com_din-light-webfont.svg#din_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ZagBold';
+    src: url('fontface/zagbold.eot');
+    src: url('fontface/zagbold.eot?#iefix') format('embedded-opentype'),
+         url('fontface/zagbold.woff') format('woff'),
+         url('fontface/zagbold.ttf') format('truetype'),
+         url('fontface/zagbold.svg#zagbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN-Medium';
+    src: url('fontface/dinmd___.eot');
+    src: url('fontface/dinmd___.eot?#iefix') format('embedded-opentype'),
+         url('fontface/dinmd___.woff') format('woff'),
+         url('fontface/dinmd___.ttf') format('truetype'),
+         url('fontface/dinmd___.svg#dinmd___') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'din_neuzeit_grotesk_std_bolRg';
+    src: url('fontface/dinneuzeitgroteskstd-bdcond_0-webfont.eot');
+    src: url('fontface/dinneuzeitgroteskstd-bdcond_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontface/dinneuzeitgroteskstd-bdcond_0-webfont.woff') format('woff'),
+         url('fontface/dinneuzeitgroteskstd-bdcond_0-webfont.ttf') format('truetype'),
+         url('fontface/dinneuzeitgroteskstd-bdcond_0-webfont.svg#din_neuzeit_grotesk_std_bolRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'new_athletic_m54regular';
+    src: url('fontface/new_athletic_m54-webfont.eot');
+    src: url('fontface/new_athletic_m54-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontface/new_athletic_m54-webfont.woff') format('woff'),
+         url('fontface/new_athletic_m54-webfont.ttf') format('truetype'),
+         url('fontface/new_athletic_m54-webfont.svg#new_athletic_m54regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
