@@ -90,7 +90,7 @@ function switchPages(e) {
 		switch (patt1.exec(selector)[0]) {				
 			case '01':
 				resetHover();							
-				$('<style> #navigation li:hover:not(.selected) {color:#333} #navigation .selected {color:#333} </style>').appendTo('head');
+				$('<style> #navigation li:hover:not(.selected) {color:#593a7a} #navigation .selected {color:#593a7a} </style>').appendTo('head');
 				$("#menuSection > #li01").addClass("selected").removeClass("allowHover");										
 				$('#arrowLi #arrowP01').delay(1000).animate({ opacity : 1 , top : 55 }, 400, 'easeInOutExpo');	
 				$('#hoverLi #overP01').delay(1000).animate({ opacity : 1 , width : 42 , left : -693 }, 500, 'easeOutElastic');
@@ -114,7 +114,7 @@ function switchPages(e) {
 				
 			case '04':
 				resetHover();
-				$('<style> #navigation li:hover:not(.selected) {color:#ca6eb6} #navigation .selected {color:#ca6eb6} </style>').appendTo('head');
+				$('<style> #navigation li:hover:not(.selected) {color:#a12701} #navigation .selected {color:#a12701} </style>').appendTo('head');
 				$("#menuSection > #li04").addClass("selected").removeClass("allowHover");							
 				$('#arrowLi #arrowP04').delay(1000).animate({ opacity : 1 , top : 55 }, 400, 'easeInOutExpo');					
 				$('#hoverLi #overP04').delay(1000).animate({ opacity : 1 , width : 75 , left : -427 }, 500, 'easeOutElastic');					
@@ -204,7 +204,7 @@ function onClickHandler(e) {
 			switch (patt1.exec(e.target.parentNode.id)[0]) {				
 				case '01':					
 					resetHover();												
-					$('<style> #navigation li:hover:not(.selected) {color:#333} #navigation .selected {color:#333} </style>').appendTo('head');
+					$('<style> #navigation li:hover:not(.selected) {color:#593a7a} #navigation .selected {color:#593a7a} </style>').appendTo('head');
 					$("#menuSection > #li01").addClass("selected").removeClass("allowHover");										
 					$('#arrowLi #arrowP01').delay(1000).animate({ opacity : 1 , top : 55 }, 400, 'easeInOutExpo');	
 					$('#hoverLi #overP01').delay(1000).animate({ opacity : 1 , width : 42 , left : -693 }, 500, 'easeOutElastic');

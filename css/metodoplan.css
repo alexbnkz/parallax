@@ -30,14 +30,46 @@ body > article {}
 ***********************************************************************/
 
 #logo {position:fixed; z-index:7; left:30px; top:25px; width:135px; height:135px; cursor:pointer}
-#navigation {position:fixed; z-index:7; right: 15px; ; top:25px; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none;}
-#navigation .selected {color:#333;}
-#navigation li {height:40px; font:normal 13px 'Oswald'; text-align:center; color:#fff; float:left; letter-spacing:0}
+#navigation {position:fixed; z-index:7; top:25px; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none;}
+#navigation .selected {color:#eee;}
+#navigation li {height:40px; font:normal 13px ; text-align:center; color:#fff; float:left; letter-spacing:0; margin-right: 4px;}
 #navigation li:hover:not(.selected) {color:#333;}
 
 #navigation li.star {width:12px}
 #navigation li img {margin-top:12px}
-#navigation li a {color:inherit; display:block; /*padding:8px; cursor:pointer;*/ width:100%; height:40px; line-height:30px; text-align:center;}
+#navigation li a {
+	background: #111;
+	color:inherit; 
+	display:block; 
+	
+	text-align:center;
+	margin-left: 5px;
+}
+#navigation li a:hover, li a:focus, li a:visited {
+	background: #666;
+	color:#FFF; 
+	display: inherit; 
+	
+	text-align:center;
+	margin-left: 5px;
+	transition-timing-function: ease-in-out;
+	-webkit-transition-delay: 2s; /* Safari */
+    transition-delay: 2s;
+	-webkit-transition: width 3s; /* Safari */
+    transition: width 3s;
+}
+#navigation li a:active {
+	background: #666;
+	color:#FFF; 
+	
+	text-align:center;
+	margin-left: 5px;
+	transition-timing-function: ease-in-out;
+	-webkit-transition-delay: 2s; /* Safari */
+    transition-delay: 2s;
+	-webkit-transition: width 3s; /* Safari */
+    transition: width 3s;
+}
 #navigation img {/*color:inherit; display:block; padding:12px 2px;*/}
 
 #hoverLi {position:fixed; z-index:5; right:27px; top:28px; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none;}
@@ -94,7 +126,7 @@ footer a:hover{color:#a9005c; text-decoration:none;}
 #first .payoff01 {height:214px; width:592px; max-width:1920px; position:absolute; z-index:3; top:240px; left:50%; margin-left:-570px;}
 #first .flag {height:171px; width:456px; max-width:1920px; position:absolute; z-index:4; top:443px; left:50%; margin-left:-517px;}
 #first .love {height:120px; width:138px; max-width:1920px; position:absolute; z-index:6; top:550px; left:50%; margin-left:-360px;}
-#first .scopri {background:url('../img/home/bkgScopri.png') 0 0 no-repeat; height:140px; width:253px; max-width:1920px; position:absolute; z-index:4; top:700px; left:50%; margin-left:-423px;}
+#first .scopri {background:url('../img/home/bkgScopri.png') 0 0 no-repeat; height:140px; width:253px; max-width:1920px; position:absolute; z-index:4; top:300px; left:50%; margin-left:-423px;}
 #first .scopri a{cursor:pointer; text-decoration:none; display:block; height:140px;}
 #first .scopri h1 {width:253px; font:normal 37px 'ZagBold'; text-align:center; color:#fff; margin-top:-8px; padding:0;}
 #first .scopri h2 {width:253px; font:normal 15px 'DIN-Medium'; letter-spacing:7px; text-align:center; color:#fff; margin-top:-5px; padding:0;}
@@ -135,8 +167,8 @@ footer a:hover{color:#a9005c; text-decoration:none;}
 #third .obj01 {height:648px; width:308px; max-width:1920px; position:absolute; z-index:6; top:1600px; left:72px;}
 #third .obj02 {height:268px; width:129px; max-width:1920px; position:absolute; z-index:5; top:1200px; right:50px;}
 #third .mainTxt {background:url('../img/makeup/makeup.png') 0 0 no-repeat; height:600px; width:452px; max-width:1920px; position:absolute; z-index:4; top:2850px; left:50%; margin-left:50px;}
-#third .mainTxt h1 {width:452px; font:normal 15px 'DIN-Medium'; color:#fff; text-align:justify; margin-top:275px;}
-#third .mainTxt h2 {width:auto; font:normal 15px 'DIN-Medium'; letter-spacing:6px; text-align:center; color:#fff; margin:40px 0 0 6px; line-height:23px;}
+#third .mainTxt h1 {width:452px; font:normal 15px 'DIN-Medium'; color:#666; text-align:justify; margin-top:275px;}
+#third .mainTxt h2 {width:auto; font:normal 15px 'DIN-Medium'; letter-spacing:6px; text-align:center; color:#666; margin:40px 0 0 6px; line-height:23px;}
 @media screen and (-webkit-min-device-pixel-ratio:0) { #third .mainTxt h2{margin:49px 0 0 6px;} }
 #third .mainTxt h2 a{color:#fff; text-decoration:none;}
 #third .mainTxt h3{width:133px; height:30px; line-height:34px; font-size:18px; color:#FFF;font-family:'din_neuzeit_grotesk_std_bolRg'; margin:9px 57px 0px 0px; float:right}
@@ -183,6 +215,8 @@ footer a:hover{color:#a9005c; text-decoration:none;}
 
 #fourth {background:url('../img/d.jpg') 50% 0px no-repeat fixed; height:1130px; z-index:1; position:relative;}
 #fourth > article {width:100%; position:absolute; top:0px; z-index:0;}
+#fourth > a {width:100px;}
+#fourth > a:active {display:inline-block!important;}
 
 /* ----------------------------------------------------- */
 /* LABORATORIO */
