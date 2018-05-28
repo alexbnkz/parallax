@@ -30,17 +30,10 @@ body > article {}
 ***********************************************************************/
 
 #logo {position:fixed; z-index:7; left:30px; top:25px; width:135px; height:135px; cursor:pointer}
-#navigation {position:fixed; z-index:7; right:47px; top:25px; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none;}
+#navigation {position:fixed; z-index:7; right: 15px; ; top:25px; -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none;}
 #navigation .selected {color:#333;}
 #navigation li {height:40px; font:normal 13px 'Oswald'; text-align:center; color:#fff; float:left; letter-spacing:0}
 #navigation li:hover:not(.selected) {color:#333;}
-#navigation li#li01 {width:47px;}
-#navigation li#li02 {width:71px;}
-#navigation li#li03 {width:111px;}
-#navigation li#li04 {width:82px;}
-#navigation li#li05 {width:92px;}
-#navigation li#li06 {width:130px;}
-#navigation li#li07 {width:70px;}
 
 #navigation li.star {width:12px}
 #navigation li img {margin-top:12px}

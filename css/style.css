@@ -8,6 +8,7 @@
 
 nav ul a,
 nav .brand-logo {
+  background: #eceff1;
   color: #444;
 }
 
