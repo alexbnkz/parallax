@@ -155,8 +155,8 @@ footer a:hover{color:#a9005c; text-decoration:none;}
 #second .scopri h4 strong{font-family:'din_neuzeit_grotesk_std_bolRg'; font-size:16px;}
 #second .scopri h4 a{color:#fff; text-decoration:none;}
 
-#second .scopri h4.box_tattoo{background:url(../img/tatuaggi/bg_tattoo.png); width:280px; height:66px; top:450px; left:25px; padding-left:170px; line-height:66px; z-index:999}
-#second .scopri h4.box_legge{background:url(../img/tatuaggi/bg_legge.png); width:300px; height:52px; top:640px; left:25px; padding-left:150px; line-height:66px}
+/*#second .scopri h4.box_tattoo{background:url(../img/tatuaggi/bg_tattoo.png); width:280px; height:66px; top:450px; left:25px; padding-left:170px; line-height:66px; z-index:999}
+#second .scopri h4.box_legge{background:url(../img/tatuaggi/bg_legge.png); width:300px; height:52px; top:640px; left:25px; padding-left:150px; line-height:66px}*/
 
 #second {background:url('../img/b.jpg') 50% 0 no-repeat fixed; height:1080px; z-index:5; position:relative;}
 #second > article {width:100%; position:absolute; top:0; z-index:0;}
