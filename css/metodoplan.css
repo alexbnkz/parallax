@@ -126,8 +126,8 @@ footer a:hover{color:#a9005c; text-decoration:none;}
 #first .payoff01 {height:214px; width:592px; max-width:1920px; position:absolute; z-index:3; top:240px; left:50%; margin-left:-570px;}
 #first .flag {height:171px; width:456px; max-width:1920px; position:absolute; z-index:4; top:443px; left:50%; margin-left:-517px;}
 #first .love {height:120px; width:138px; max-width:1920px; position:absolute; z-index:6; top:550px; left:50%; margin-left:-360px;}
-#first .scopri {background:url('../img/home/bkgScopri.png') 0 0 no-repeat; height:140px; width:253px; max-width:1920px; position:absolute; z-index:4; top:300px; left:50%; margin-left:-423px;}
-#first .scopri a{cursor:pointer; text-decoration:none; display:block; height:140px;}
+#first .scopri {background:url('../img/home/bkgScopri.png') 0 0 no-repeat; height:140px; width:70%; max-width:1920px; position:fixed; z-index:4; top:200px; left:15%; margin-left:-423px;}
+#first .scopri a{cursor:pointer; text-decoration:none; display:block;;}
 #first .scopri h1 {width:253px; font:normal 37px 'ZagBold'; text-align:center; color:#fff; margin-top:-8px; padding:0;}
 #first .scopri h2 {width:253px; font:normal 15px 'DIN-Medium'; letter-spacing:7px; text-align:center; color:#fff; margin-top:-5px; padding:0;}
 #first .bolla1 {height:352px; width:357px; max-width:1920px; position:absolute; z-index:6; top:420px; left:20px;}
@@ -136,7 +136,7 @@ footer a:hover{color:#a9005c; text-decoration:none;}
 
 
 
-#first {background:url('../img/a.jpg') 50% 0 no-repeat fixed; height:1620px; position:relative;}
+#first {background:url('../img/a2.jpg') 50% 0 no-repeat fixed; height:1620px; position:relative;}
 #first > article {width:100%; position:absolute; top:0;  z-index:2;}
 
 /* ----------------------------------------------------- */
