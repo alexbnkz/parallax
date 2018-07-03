@@ -281,3 +281,14 @@ footer a:hover{color:#a9005c; text-decoration:none;}
 .fancy_txt p a{color:#aadff4}
 #cura_trucco{background:url(../img/makeup/bg_box.jpg) center center no-repeat;}
 #cura_tattoo, #decreto_legge{background:url(../img/tatuaggi/bg_box.jpg) center center no-repeat;}
+
+
+/* ----------------------------------------------------- */
+/* TEXT BACKGROUND */
+
+p.black_style {
+    font-size: 24px!important;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 20px;
+}
