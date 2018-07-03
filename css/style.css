@@ -6,8 +6,9 @@
  * Made By MaterializeCSS.com
  */
 
- nav {
-  background: #111;  
+nav ul a,
+nav .brand-logo {
+  color: #444;
 }
 
 p {
