@@ -46,7 +46,7 @@ body > article {}
 	margin-left: 5px;
 }
 #navigation li a:hover, li a:focus, li a:visited {
-	background: #ff1fa9;
+	background: #ff8fd4;
 	color:#FFF; 
 	display: inherit; 
 	
@@ -59,7 +59,7 @@ body > article {}
     transition: width 3s;
 }
 #navigation li a:active {
-	background: #ff1fa9;
+	background: #ff8fd4;
 	color:#FFF; 
 	
 	text-align:center;
