@@ -294,7 +294,7 @@ function init() {
 	$("#menuSection > #li01").addClass("selected").removeClass("allowHover");
 	$('#hoverLi #overP01').animate({ opacity : 1 , width : 42 , left : -693 }, 500, 'easeOutElastic');
 	$('#arrowLi #arrowP01').animate({ opacity : 1 , top : 55 }, 400, 'easeInOutExpo');	
-	document.getElementById("wrapper").className = "selected";
+	//document.getElementById("wrapper").className = "selected";
 	
 	list = $("body>section");
 	i = 0;
@@ -433,7 +433,7 @@ function playMusic(){
 
 $(document).ready(function (e) {
 	
-	$("body").queryLoader2({
+/*	$("body").queryLoader2({
 		barColor: "#000000",
 		backgroundColor: "#000000",
 		percentage: true,
@@ -496,13 +496,13 @@ $(document).ready(function (e) {
 		$('#third .mainTxt h2').css({'margin' : '55px 0 0 20px'});	
 		$('#third .mainTxt h3').css({'width': 150});	
 		$('.fancy_txt h2').css({'margin-top':0});
-	}
+	}*/
 });
 
 $(window).load(function (e) {	
 	$("body > section").removeClass("hidden");
 	init();
-	setupParallax();
-	setupEventHandlers();		
+	//setupParallax();
+	//setupEventHandlers();		
 });
 
