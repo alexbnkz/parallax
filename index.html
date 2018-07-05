@@ -38,7 +38,7 @@
 
   <nav id="navigation" role="navigation">
     <div class="nav-wrapper container">
-      <a id="brand-logo" href="#Home" class="Home brand-logo"><img src="img/logo-pequeno.png" width="80" height="56" alt="MétodoPlan" style=""></a>
+      <a id="brand-logo" href="#Home" class="Home brand-logo"><img src="img/logo-pequeno.png" width="80" height="56" alt="MétodoPlan" /></a>
        <ul id="menuSection" class="right hide-on-med-and-down">
         <!-- <li id="li01"><a href="#">M&eacute;todoPlan</a></li> -->
         <li class="Detophyll"><a href="#Detophyll">Detophyll</a></li>
@@ -53,7 +53,12 @@
     </div>
   </nav>
       <ul id="nav-mobile" class="sidenav">
-        <!-- <li><a href="#">M&eacute;todoPlan</a></li> -->
+        <li>
+          <div class="icon-block">
+            <h2 class="center brown-text Home" style="height: 60px"><img src="img/logo-color-medium.png" alt="MétodoPlan"></h2>
+            <h5 class="center">MétodoPlan</h5>
+          </div>
+        </li>
         <li class="Detophyll"><a href="#Detophyll">Detophyll</a></li>
         <li class="Quitoplan"><a href="#Quitoplan">Quitoplan</a></li>
         <li class="Colastrina"><a href="#Colastrina">Colastrina</a></li>
@@ -90,7 +95,7 @@
             </div>
 
             <div class="col s12 m4">
-                <p class="light black_style">
+                <p class="light black_style center">
                   <b class="center green-text" style="margin: auto 0px">Detophyll</b>
                   <br />
                   <br />
@@ -123,7 +128,7 @@
             <div class="row ">
 
             <div class="col s12 m6">
-               <p class="light black_style" style="margin-right: 70px;">
+               <p class="light black_style center" style="margin-right: 70px;">
                 <b class="center blue-text" style="margin: auto 0px">
                   QuitoPlan</b>
                 <br />
@@ -175,7 +180,7 @@
           </div>
 
           <div class="col s12 m6">
-            <p class="light black_style">
+            <p class="light black_style center">
               <b class="center red-text" style="margin: auto 0px">
                 Colastrina</b>
               <br />
@@ -211,7 +216,7 @@
           <div class="row ">
 
           <div class="col s12 m8">
-             <p class="light black_style" style="margin-right: 70px;">
+             <p class="light black_style center" style="margin-right: 70px;">
               <b class="center yellow-text" style="margin: auto 0px">
                 ConuTherm</b>
               <br />
@@ -264,7 +269,7 @@
           </div>
 
           <div class="col s12 m6">
-            <p class="light black_style">
+            <p class="light black_style center">
               <b class="center green-text" style="margin: auto 0px">
                 Thermatcha</b>
               <br />
@@ -338,36 +343,37 @@
 
     $('.Home').click(function(){
       $('html, body').animate({scrollTop: 0 }, 2500, 'easeInOutQuart');
+      $('.sidenav').sidenav();
     });
 
     $('.Detophyll').click(function(){
       $('html, body').animate({scrollTop: $('#pgDetophyll').offset().top -75 }, 2500, 'easeInOutQuart');
-      $('.button-collapse').sideNav('hide');
+      $('.sidenav').sidenav();
     });
 
     $('.Quitoplan').click(function(){
       $('html, body').animate({scrollTop: $('#pgQuitoplan').offset().top -75 }, 2500, 'easeInOutQuart');
-      $('.button-collapse').sideNav('hide');
+      $('.sidenav').sidenav();
     });
 
     $('.Colastrina').click(function(){
       $('html, body').animate({scrollTop: $('#pgColastrina').offset().top -75 }, 2500, 'easeInOutQuart');
-      $('.button-collapse').sideNav('hide');
+      $('.sidenav').sidenav();
     });
 
     $('.ConuTherm').click(function(){
       $('html, body').animate({scrollTop: $('#pgConuTherm').offset().top -75 }, 2500, 'easeInOutQuart');
-      $('.button-collapse').sideNav('hide');
+      $('.sidenav').sidenav();
     });
 
     $('.Thermatcha').click(function(){
       $('html, body').animate({scrollTop: $('#pgThermatcha').offset().top -75 }, 2500, 'easeInOutQuart');
-      $('.button-collapse').sideNav('hide');
+      $('.sidenav').sidenav();
     });
 
     $('.Contato').click(function(){
       $('html, body').animate({scrollTop: $('#pgContato').offset().top -75 }, 2500, 'easeInOutQuart');
-      $('.button-collapse').sideNav('hide');
+      $('.sidenav').sidenav();
     });
 
   </script>
