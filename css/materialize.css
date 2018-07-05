@@ -4311,6 +4311,14 @@ nav .nav-wrapper {
   nav a.sidenav-trigger {
     display: none;
   }
+
+  nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    margin: 3px;
+  }
 }
 
 nav .sidenav-trigger {
@@ -4479,6 +4487,14 @@ nav .input-field label.active i {
   }
   .navbar-fixed {
     height: 64px;
+  }
+
+  nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    margin: 3px;
   }
 }
 
