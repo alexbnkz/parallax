@@ -43,10 +43,24 @@
 
 
   <!-- CSS  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
   <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
   <link type='text/css' rel="stylesheet" href="css/metodoplan2.css" />
+
+  <style type="text/css">
+    .facebook {
+      background-color: #3b5998 !important;
+      color: #fff !important;
+    }
+    .facebook i {
+      color: #fff !important;
+    }
+    .facebook:hover {
+      background-color: #4c70ba !important;
+    }
+  </style>
 
 </head>
 <body>
@@ -317,7 +331,23 @@
               <div class="col s12">
                 <div class="icon-block">
                   <h2 class="center" style="color: #c91986 ;"><i class="material-icons">mail</i></h2>
-                  <h5 class="center">atendimento@metodoplan.com.br</h5>
+                  <h5 class="center" style="font-size: 20px; padding: 0px;margin: 0px;">atendimento@metodoplan.com.br</h5>
+                  <br />
+                  <br />
+
+                  <div id="fb-root"></div>
+                  <script>(function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.0';
+                    fjs.parentNode.insertBefore(js, fjs);
+                  }(document, 'script', 'facebook-jssdk'));</script>
+
+                  <div class="fb-share-button" data-href="https://www.metodoplan.com.br/" data-layout="button" data-size="large" data-mobile-iframe="false">
+                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.metodoplan.com.br%2F&amp;src=sdkpreparse" class="waves-effect waves-light btn social facebook"><i class="fa fa-facebook"></i> Compartilhe</a>
+                  </div>
+
                 </div>
               </div>
 
