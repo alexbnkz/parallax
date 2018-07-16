@@ -48,6 +48,18 @@
   <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
   <link type='text/css' rel="stylesheet" href="css/metodoplan2.css" />
 
+  <script type="text/javascript">
+    function navTo(page) {
+      console.log(page);
+      if (page == 'Home') {
+        $('html, body').animate({scrollTop: 0 }, 2500, 'easeInOutQuart');
+      } 
+      else {
+        $('html, body').animate({scrollTop: $('#pg'+page).offset().top -75 }, 2500, 'easeInOutQuart');
+      }
+      $('.sidenav').sidenav();
+    }
+  </script>
 </head>
 <body>
 
@@ -350,39 +362,15 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 
-    $('.Home').click(function(){
-      $('html, body').animate({scrollTop: 0 }, 2500, 'easeInOutQuart');
-      $('.sidenav').sidenav();
+    $('.Home, .Detophyll, .Quitoplan, .Colastrina, .Thermatcha, .Contato').click(function(){
+      if (this.className.indexOf("Home") != -1) navTo('Home'); else navTo(this.className);
     });
 
-    $('.Detophyll').click(function(){
-      $('html, body').animate({scrollTop: $('#pgDetophyll').offset().top -75 }, 2500, 'easeInOutQuart');
-      $('.sidenav').sidenav();
-    });
-
-    $('.Quitoplan').click(function(){
-      $('html, body').animate({scrollTop: $('#pgQuitoplan').offset().top -75 }, 2500, 'easeInOutQuart');
-      $('.sidenav').sidenav();
-    });
-
-    $('.Colastrina').click(function(){
-      $('html, body').animate({scrollTop: $('#pgColastrina').offset().top -75 }, 2500, 'easeInOutQuart');
-      $('.sidenav').sidenav();
-    });
-
-    $('.ConuTherm').click(function(){
-      $('html, body').animate({scrollTop: $('#pgConuTherm').offset().top -75 }, 2500, 'easeInOutQuart');
-      $('.sidenav').sidenav();
-    });
-
-    $('.Thermatcha').click(function(){
-      $('html, body').animate({scrollTop: $('#pgThermatcha').offset().top -75 }, 2500, 'easeInOutQuart');
-      $('.sidenav').sidenav();
-    });
-
-    $('.Contato').click(function(){
-      $('html, body').animate({scrollTop: $('#pgContato').offset().top -75 }, 2500, 'easeInOutQuart');
-      $('.sidenav').sidenav();
+    $(document).ready(function(){
+      if (document.location.href.indexOf('#') != -1) {
+        var tag = document.location.href.split('#')[1];
+        if (tag.indexOf("Home") != -1) navTo('Home'); else navTo(tag);
+      } 
     });
 
   </script>
